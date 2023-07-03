@@ -1,3 +1,4 @@
+### Simple Fun #74 - Growing Plant
 You will be given an array of objects representing data about developers who have signed up to attend the next coding meetup that you are organising.
 
 Given the following input array:
