@@ -1,4 +1,4 @@
-Coding Meetup #11 - Higher-Order Functions Series - Find the average age
+### Coding Meetup #11 - Higher-Order Functions Series - Find the average age
 You will be given a sequence of objects representing data about developers who have signed up to attend the next coding meetup that you are organising.
 
 Given the following input array:
