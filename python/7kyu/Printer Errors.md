@@ -18,6 +18,8 @@ s="aaaxbbbbyyhwawiwjjjwwm"
 printer_error(s) => "8/22"
 ```
 
+---
+
 ```py
 def printer_error(s):
     return '{}/{}'.format(sum(color > 'm' for color in s), len(s))
