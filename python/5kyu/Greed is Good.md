@@ -26,6 +26,8 @@ Example scoring
 
 In some languages, it is possible to mutate the input to the function. This is something that you should never do. If you mutate the input, you will not be able to pass all the tests.
 
+---
+
 ```py
 from collections import Counter
 
