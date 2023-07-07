@@ -27,6 +27,8 @@ Notes:
 * The input array will always be valid and formatted as in the example above.
 * Each of the 3 programming languages will always be represented.
 
+---
+
 ```py
 def is_language_diverse(lst): 
     count = {}
