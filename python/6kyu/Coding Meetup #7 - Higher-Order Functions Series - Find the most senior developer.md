@@ -27,6 +27,8 @@ Notes:
 
 * The input array will always be valid and formatted as in the example above and will never be empty.
 
+---
+
 ```py
 def find_senior(lst): 
     max_value = max([x['age'] for x in lst ])
