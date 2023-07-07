@@ -16,6 +16,7 @@ Requirements:
 * Division should be integer division. For example, this should return 2, not 2.666666...:
 eight(divided_by(three()))
 
+---
 
 ```py
 def zero(func=None): 
