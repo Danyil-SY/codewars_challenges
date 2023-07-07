@@ -11,6 +11,8 @@ XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
 XO("zzoo") => false
 ```
 
+---
+
 ```py
 def xo(s):
     return s.lower().count('x') == s.lower().count('o')
