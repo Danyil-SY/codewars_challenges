@@ -29,6 +29,8 @@ Notes:
 * Return an empty array [] if there is no developer with an "odd" name.
 * The input array and first names will always be valid and formatted as in the example above.
 
+---
+
 ```py
 def ascii_value(word):
     ascii_sum = 0
