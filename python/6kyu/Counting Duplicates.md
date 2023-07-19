@@ -20,10 +20,10 @@ Example
 def duplicate_count(text):
     duplicates = set()
     seen = set()
-    text_lower = text.lower()
-    for x in text_lower:
+    for x in text.lower():
         if x in seen:
             duplicates.add(x)
-        seen.add(x)
+        else:
+            seen.add(x)
     return len(duplicates)
 ```
