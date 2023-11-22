@@ -16,12 +16,5 @@ In this kata, the function will take a string as its argument, and return a stri
 
 ```py
 def to_freud(sentence):
-    if sentence:
-        answerArray = []
-        sentence = sentence.split(' ')
-        for i in range(len(sentence)):
-            answerArray.append("sex")
-        return ' '.join(answerArray)
-    else:
-        return ''
+    return ' '.join('sex' for x in sentence.split())
 ```
