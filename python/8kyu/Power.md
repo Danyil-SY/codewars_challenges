@@ -15,5 +15,9 @@ Note: math.pow and some others math functions are disabled on final tests.
 ---
 
 ```py
-
+def number_to_pwr(number, p): 
+    result = 1
+    for _ in range(p):
+        result *= number
+    return result
 ```
