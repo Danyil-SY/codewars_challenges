@@ -17,5 +17,21 @@ Because you're a nice person, you always round up the tip, regardless of the ser
 ---
 
 ```py
+from math import ceil
 
+def calculate_tip(amount, rating):
+    rate = rating.lower()
+    
+    if rate == 'terrible':
+        return 0
+    elif rate == 'poor':
+        return ceil(amount * 0.05)
+    elif rate == 'good':
+        return ceil(amount * 0.1)
+    elif rate == 'great':
+        return ceil(amount * 0.15)
+    elif rate == 'excellent':
+        return ceil(amount * 0.2)
+    else:
+        return 'Rating not recognised'
 ```
