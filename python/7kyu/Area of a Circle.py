@@ -13,3 +13,9 @@
 # circle_area(0)            # raises ValueError
 # circle_area(-1)           # raises ValueError
 
+import math
+
+def circle_area(r):
+    if r <= 0:
+        raise ValueError("Radius must be positive")
+    return round(math.pi * r ** 2, 3)
